@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Nokora-Regular";
+  src: url("/fonts/nokora/Nokora-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nokora-Bold";
+  src: url("/fonts/nokora/Nokora-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nokora-Light";
+  src: url("/fonts/nokora/Nokora-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Nokora-Regular", sans-serif;
+  }
+}
+
+
+.back-data{
+  background: linear-gradient(
+    to top,
+    #FFFFFF 0%,
+    #FFFFFF 25%,
+    rgba(255,255,255,0.95) 25%,
+    rgba(255,255,255,0.90) 50%,
+    rgba(255,255,255,0.64) 75%,
+    rgba(255,255,255,0) 100%
+  )
+}
+
+.back-data-bottom{
+  background: linear-gradient(
+    to bottom,
+    #FFFFFF 0%,
+    #FFFFFF 25%,
+    rgba(255,255,255,0.95) 25%,
+    rgba(255,255,255,0.90) 50%,
+    rgba(255,255,255,0.64) 75%,
+    rgba(255,255,255,0) 100%
+  )
+}
+
+.back-data-bottom{
+  background: linear-gradient(
+    to bottom,
+    #FFFFFF 0%,
+    #FFFFFF 25%,
+    rgba(255,255,255,0.98) 80%,
+    rgba(255,255,255,0) 100%
+  )
+}
