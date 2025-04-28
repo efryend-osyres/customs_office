@@ -5,7 +5,7 @@ import ParallaxIContact from "./ParallaxIContact";
 export default function Contact() {
     return (
         <>
-            <div className="container mx-auto mt-40 mb-5">
+            <div className="container  mx-auto mt-40 mb-5">
                 <div className="text-2xl font-NokoraBold">
                     Mándanos un mensaje
                 </div>
