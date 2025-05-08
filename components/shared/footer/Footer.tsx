@@ -107,10 +107,10 @@ export function Footer() {
                 <div className="text-base text-center mt-3">
                     © 2025 GRUPO PAMA LOGISTICA Y COMERCIO EXTERIOR
                 </div>
-                <div className="text-xs text-center mt-4">
+                {/* <div className="text-xs text-center mt-4">
                     Patente Aduanal : Francisco Javier Lares Hopkins [3262] ,
                     Servicios Aduanales de GALA
-                </div>
+                </div> */}
             </div>
         </div>
     );
